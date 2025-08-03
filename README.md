@@ -13,7 +13,7 @@ A smart medical chatbot that uses:
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
-```bash
+```
 
 
 ## 📁 Project Structure
@@ -21,15 +21,15 @@ streamlit run app.py
 ```bash
 
 medical-chatbot/
-├── app.py (or main.py / streamlit_app.py)
+├── app.py 
 ├── modules/
 │   ├── medqa.py
 │   ├── analytics.py
 │   └── sentiment.py
 ├── README.md
 ├── requirements.txt
-└── .gitignore
 
+```
 
     app.py: Main chatbot interface
 
@@ -45,3 +45,4 @@ medical-chatbot/
 
 
     multimodal.py: (if used) handles image/text/audio
+
